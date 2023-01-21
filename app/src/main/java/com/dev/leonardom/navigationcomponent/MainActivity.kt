@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     //Para activar la flecha de retroseso al fragment anterior
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
